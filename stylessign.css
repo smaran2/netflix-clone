@@ -1,8 +1,8 @@
 .main {
   background-image: url(./assets/images/backgroundimage.jpg);
-  height: 100vh;
+  height: 130vh;
   background-position: center center;
-  background-size: max(1200px, 100vw);
+  background-size: max(1500px, 110vw);
   background-repeat: no-repeat;
   position: relative;
   opacity: 0.5;
@@ -20,4 +20,24 @@ nav img {
   position: relative;
   margin: 30px;
   padding: 10px 50;
+}
+.main .in {
+  height: 730px;
+  width: 450px;
+  opacity: 0.69;
+  position: absolute;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  margin: 120px;
+  left: 450px;
+  z-index: 20;
+}
+.sign {
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
 }
